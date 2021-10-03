@@ -9,14 +9,14 @@
     background-color: lightblue;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-image-source: url("panelVertical.jpg");
+    border-image-source: url("img/panelVertical.jpg");
     border-image-slice: 100;
     float: left;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 #rain {
-    background-image: url("cookierain.gif");
+    background-image: url("img/cookierain.gif");
     background-position: top;
     position: absolute;
     left: 0px;
@@ -30,7 +30,7 @@
 }
 
 #milk {
-    background-image: url("milkWave.gif");
+    background-image: url("img/milkWave.gif");
 
     background-position: bottom;
     position: absolute;
@@ -57,7 +57,7 @@
     z-index: -999999;
     text-align: center;
     justify-content: center;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 
 }
 
@@ -72,11 +72,11 @@
     background-color: #add8e6;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-image-source: url("panelVertical.jpg");
+    border-image-source: url("img/panelVertical.jpg");
     border-image-slice: 100;
     float: right;
     text-align: center;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 #cookieCenter {
@@ -92,7 +92,7 @@
     position: absolute;
     left: -128px;
     top: -128px;
-    background: url(cookie.png);
+    background: url(img/cookie.png);
     cursor: pointer;
     z-index: 10000;
     border-radius: 128px;
@@ -133,7 +133,7 @@
     position: absolute;
     left: -175px;
     top: -175px;
-    background-image: url(shine.png);
+    background-image: url(img/shine.png);
     cursor: pointer;
     z-index: 1;
     border-radius: 128px;
@@ -156,10 +156,10 @@
     background-color: #add8e6;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
     text-align: center;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 .kontent1 {
@@ -167,10 +167,10 @@
     width: 100%;
     background-color: #add8e6;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
     text-align: center;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 .kontent2 {
@@ -178,10 +178,10 @@
     width: 100%;
     background-color: #add8e6;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
     text-align: center;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 .kontent3 {
@@ -189,10 +189,10 @@
     width: 100%;
     background-color: #add8e6;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
     text-align: center;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 .kontent4 {
@@ -200,10 +200,10 @@
     width: 100%;
     background-color: #add8e6;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
     text-align: center;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 
@@ -214,9 +214,9 @@
     background-color: #add8e6;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 .content1 {
@@ -225,9 +225,9 @@
     min-height: 150px;
     background-color: #add8e6;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 .content2 {
@@ -236,9 +236,9 @@
     min-height: 150px;
     background-color: #add8e6;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 .content3 {
@@ -247,9 +247,9 @@
     min-height: 150px;
     background-color: #add8e6;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 .content4 {
@@ -258,9 +258,9 @@
     min-height: 150px;
     background-color: #add8e6;
     border-bottom: 20px solid transparent;
-    border-image-source: url("panelhorizontal.jpg");
+    border-image-source: url("img/panelhorizontal.jpg");
     border-image-slice: 100;
-    background-image: url("bgBlue.jpg");
+    background-image: url("img/bgBlue.jpg");
 }
 
 .upgrade {

@@ -11,19 +11,19 @@ const update = () => {
     document.getElementById('text1').innerHTML = cookiecount;
 
     document.getElementById('costAutoClick').innerHTML = "Upgrade (" + ((autoClick + 1) * 12) + " Cookies)";
-    document.getElementById('cookiespersecond').innerHTML = "AutoClick ti vydělává " + (autoClick) + " Cookies za sekundu";
+    document.getElementById('cookiespersecond').innerHTML = "AutoClick makes you " + (autoClick) + " Cookies/s";
 
     document.getElementById('costFarms').innerHTML = "Upgrade (" + ((farms + 1) * 18) + " Cookies)";
-    document.getElementById('cookiespersecond1').innerHTML = "Babičky ti vydělájí " + (farms) + " Cookies za sekundu";
+    document.getElementById('cookiespersecond1').innerHTML = "Grandmas makes you " + (farms) + " Cookies/s";
 
     document.getElementById('costMines').innerHTML = "Upgrade (" + ((mines + 1) * 52) + " Cookies)";
-    document.getElementById('cookiespersecond2').innerHTML = "Horníci ti vydělávájí " + (mines) + " Cookies za sekundu";
+    document.getElementById('cookiespersecond2').innerHTML = "Miners makes you " + (mines) + " Cookies/s";
 
     document.getElementById('costFactory').innerHTML = "Upgrade (" + ((factory + 1) * 100) + " Cookies)";
-    document.getElementById('cookiespersecond3').innerHTML = "Továrny ti vydělávájí " + (factory) + " Cookies za sekundu";
+    document.getElementById('cookiespersecond3').innerHTML = "Factories makes you " + (factory) + " Cookies/s";
 
     document.getElementById('costBank').innerHTML = "Upgrade (" + ((bank + 1) * 200) + " Cookies)";
-    document.getElementById('cookiespersecond4').innerHTML = "Banky ti vydělavají " + (bank) + " Cookies za sekundu";
+    document.getElementById('cookiespersecond4').innerHTML = "Banks makes you " + (bank) + " Cookies/s";
 
     document.getElementById("text").innerHTML = " Total " + (((autoClick) + (farms) + (mines) + (factory) + (bank))) + " C/s";
 
@@ -118,33 +118,33 @@ buttonBank.onclick = () => {
 
 let div1 = document.getElementById("a");
 const autocratic = () => {
-    div1.innerHTML += '<img src= "cursoricon.png" alt="" width="15" height= "20">';
+    div1.innerHTML += '<img src= "img/cursoricon.png" alt="" width="15" height= "20">';
 }
 
 let div2 = document.getElementById("b");
 const grandma = () => {
 
-    div2.innerHTML += '<img src= "grandma.png" alt="" width="15" height= "20">';
+    div2.innerHTML += '<img src= "img/grandma.png" alt="" width="15" height= "20">';
 }
 
 let div3 = document.getElementById("c");
 const hornik = () => {
 
-    div3.innerHTML += '<img src= "mine.png" alt="" width="20" height= "20">';
+    div3.innerHTML += '<img src= "img/mine.png" alt="" width="20" height= "20">';
 }
 
 
 let div4 = document.getElementById("d");
 const factors = () => {
 
-    div4.innerHTML += '<img src= "factory.png" alt="" width="20" height= "20">';
+    div4.innerHTML += '<img src= "img/factory.png" alt="" width="20" height= "20">';
 }
 
 
 let div5 = document.getElementById("e");
 const banks = () => {
 
-    div5.innerHTML += '<img src= "bank.png" alt="" width="20" height= "20">';
+    div5.innerHTML += '<img src= "img/bank.png" alt="" width="20" height= "20">';
 }
 
 
